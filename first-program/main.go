@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"custom/mathlib"
+	"fmt"
+)
 
 func main() {
-	fmt.Print("Scope is comming")
+	fmt.Println("Scope is showing")
+	mathlib.Add(12, 12)
 }
